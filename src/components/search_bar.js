@@ -9,7 +9,7 @@ class SearchBar extends Component {
 
     render() { // Always define a render function when implement Component
         // console.log(this);
-        return <div>
+        return <div className="search-bar">
                 <input
                     value={this.state.term}
                     onChange={ event => this.setState({term: event.target.value}) }
